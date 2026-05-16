@@ -157,24 +157,16 @@
 
     /* Resources list */
     .resources-list {
-      list-style: none;
-      margin: 0;
+      margin: 10px 0 10px 20px;
       padding: 0;
     }
-    .resources-list li {
-      padding: 10px 0;
-      border-bottom: 1px solid var(--card-border);
-    }
-    .resources-list li:last-child { border-bottom: none; }
+    .resources-list li { margin-bottom: 6px; }
 
     /* Still need help */
     .help-box {
       margin-top: 36px;
-      padding: 28px 24px;
-      background: var(--accent-bg);
-      border: 1px solid var(--accent-border);
-      border-radius: 12px;
-      text-align: center;
+      padding: 20px 0 0 0;
+      border-top: 1px solid var(--card-border);
     }
     .help-box p { opacity: 0.85; }
   </style>
@@ -234,7 +226,7 @@
     <p>No personal data is sent to any server. All app data is stored locally on your device only.</p>
 
     <h2>Other Resources</h2>
-    <ul class="resources-list">
+    <ul class="resources-list" style="list-style: disc;">
       <li><a href="privacy-policy.html">Privacy Policy</a></li>
       <li><a href="terms-of-use.html">Terms of Use</a></li>
     </ul>
